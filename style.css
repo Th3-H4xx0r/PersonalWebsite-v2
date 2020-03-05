@@ -128,3 +128,10 @@
         html{
             scroll-behavior: smooth;
         }
+
+        .roundedBorder{
+            border-radius: 25px;
+            color: black;
+            height: 100px;
+            width: 100px;
+        }
