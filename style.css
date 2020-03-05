@@ -16,7 +16,8 @@
             color: black;
             font-size: 25px;
             font-weight: 600;
-            font-family:  "Helvetica"
+            font-family:  "Helvetica";
+            text-decoration: none
         
         }
 
@@ -122,4 +123,8 @@
             height: 400px;
             width: inherit;
 
+        }
+
+        html{
+            scroll-behavior: smooth;
         }
