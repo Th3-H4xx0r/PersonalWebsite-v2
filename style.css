@@ -135,3 +135,10 @@
             height: 100px;
             width: 100px;
         }
+
+        #rcorners1 {
+            border-radius: 15px 50px 30px;;
+            background: grey;
+            width: 200px;
+            height: 150px; 
+          }
