@@ -6,7 +6,7 @@
         }
 
         @font-face{
-            src: url(Fonts/HelveticaNowDisplayXBlk.otf);
+            src: url(Fonts\HelveticaNeue.ttf);
             font-family: Helvetica;
 
         }
@@ -22,6 +22,7 @@
 
         }
         .topButtons {
+            min-width: 100px;
             padding-left: 20px;
             padding-top: 100px;
             color: black;
