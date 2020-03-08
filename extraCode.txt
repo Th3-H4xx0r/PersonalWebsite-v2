@@ -1,0 +1,61 @@
+<svg width="inherit" height="24cm" style="background-color: #F7F7F7;" id = "About Me">
+                                <!-- ABOUT ME SECTION-->
+                                <g>
+                                    <text x="50" y="250" font-family="SF Pro Display" font-size="90px">About Me</text>
+                                    <rect x="500" y="150" style="height: 700px; width: 8px; color:#A4A4A4"></rect>
+                                    <text x="600" y="200" font-family="Helvetica" font-size="50px">Software
+                                        Developer</text>
+
+                                    <text x="600" y="280" font-family="SF Pro Display" font-size="30px" fill="grey">Hi!
+                                        My name is Pranav Krishna and coding is my most favorite hobby! I attend</text>
+
+                                    <text x="600" y="320" font-family="SF Pro Display" font-size="30px"
+                                        fill="grey">Mountain House High School in California. I am fluent in over 6
+                                        coding languages.</text>
+
+                                    <text x="600" y="360" font-family="SF Pro Display" font-size="30px" fill="grey">some
+                                        of them include Dart, Python, HTML/CSS, and Core Java. I love to code</text>
+
+                                    <text x="600" y="400" font-family="SF Pro Display" font-size="30px" fill="grey">and
+                                        create projects, especially mobile apps in my free time for Android and
+                                        IOS</text>
+
+                                    <text x="600" y="460" font-family="SF Pro Display" font-size="30px"
+                                        fill="grey">Creating is my passion, and distributing my work is my dream. I have
+                                        many apps </text>
+
+                                    <text x="600" y="500" font-family="SF Pro Display" font-size="30px" fill="grey">that
+                                        I have distributed to the google play store and app store. My future goal</text>
+
+                                    <text x="600" y="540" font-family="SF Pro Display" font-size="30px" fill="grey">is
+                                        to become a software engineer and work at Google.</text>
+
+                                    <text x="600" y="650" font-family="Helvetica" font-size="50px">My Intrests</text>
+
+                                    <!-- LINES FOR INTRESTS THING-->
+
+                                    <rect x="600" y="760" style="height: 40; width: 8px; color:#A4A4A4"></rect>
+
+                                    <rect x="600" y="695" style="height: 40; width: 8px; color:#A4A4A4"></rect>
+
+                                    <rect x="600" y="820" style="height: 40; width: 8px; color:#A4A4A4"></rect>
+
+                                    <!-- INTRESTS TEXT-->
+
+
+                    
+
+                                    <text x="620" y="730" font-family="Helvetica" font-size="35px" fill="grey">Video
+                                        Production and Video Editing</text>
+
+                                    <text x="620" y="790" font-family="Helvetica" font-size="35px" fill="grey">Mobile
+                                        App Development</text>
+
+                                    <text x="620" y="850" font-family="Helvetica" font-size="35px"
+                                        fill="grey">Entrepreneurship</text>
+
+
+
+                                </g>
+
+                            </svg>

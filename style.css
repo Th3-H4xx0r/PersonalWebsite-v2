@@ -167,3 +167,24 @@
             border-radius: 50%;
             
           }
+
+          .titleTextAbout{
+            font-family: SF Pro Display;
+            font-weight: 400;
+            font-size: 70px;
+            color: black;
+          }
+
+          .smallTitles{
+            font-family: SF Pro Display;
+            font-weight: 400;
+            font-size: 40px;
+            color: black;
+          }
+
+          .p{
+            font-family: SF Pro Display;
+            font-size: 25px;
+            color: grey;
+            fill: grey;
+          }
