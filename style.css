@@ -58,6 +58,7 @@
             color: #8FB4FF;
             font-weight: 500;
             font-size: 30px;
+            padding-top: 0%;
             font-family: SF Pro Display;
         }
 
@@ -100,8 +101,9 @@
         }
 
         .mainPic{
-            padding-left: 350px;
-            padding-top: 150px;
+            
+            height: 50px;
+            width: 50px;
         }
 
         .footerText{
@@ -153,4 +155,15 @@
             background: grey;
             width: 200px;
             height: 150px; 
+          }
+
+        .circle{
+            position: relative;
+            display: inline-block;
+    
+            width: 30%px;
+            height: 300px;
+    
+            border-radius: 50%;
+            
           }
