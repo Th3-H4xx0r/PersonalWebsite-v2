@@ -188,3 +188,15 @@
             color: grey;
             fill: grey;
           }
+
+          .table{
+              margin: 0cm;
+              padding-top: 0cm;
+              padding-left: 0cm;
+              padding-right: 0cm;
+              padding-bottom: 0cm;
+          }
+
+          .clearfix{
+            clear:both
+        }

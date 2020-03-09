@@ -59,3 +59,96 @@
                                 </g>
 
                             </svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <table class="table" cellspacing = "0" cellpadding = "0">
+
+                                                <tr>
+                                                    <th>
+                                                        <img src="Image Assets/line_vertical.png"
+                                                            style="width: 0.1cm; height: 1cm;padding-left: 1cm;">
+
+
+                                                    </th>
+
+                                                    <th>
+                                                        <p
+                                                            style="color: black; font-weight: 100; color: grey; padding-left: 0cm;">
+                                                            Mobile App Development</p>
+                                                    </th>
+
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <img src="Image Assets/line_vertical.png"
+                                                            style="width: 0.1cm; height: 1cm;padding-left: 1cm;">
+
+
+                                                    </th>
+
+                                                    <th>
+                                                        <p
+                                                            style="color: black; font-weight: 100; color: grey; padding-left: 0cm; ">
+                                                            Entrepreneurship</p>
+                                                    </th>
+
+                                                </tr>
+
+                                                
+                                                <tr>
+                                                    <th>
+                                                        <img src="Image Assets/line_vertical.png"
+                                                            style="width: 0.1cm; height: 1cm;padding-left: 1cm;">
+
+
+                                                    </th>
+
+                                                    <th>
+                                                        <p
+                                                            style="color: black; font-weight: 100; color: grey; padding-left: 0.2cm;">
+                                                            Video Production and Video Editing</p>
+                                                    </th>
+                                                </tr>
+
+                                            </table>
+                                            '
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            <div class="odometer" style="color: white;" fill="white">0000</div>
+
+                                            <script>
+                                                setTimeout(function () {
+                                                    $('.odometer').html(1234);
+                                                }, 1000);
+                                            </script>
