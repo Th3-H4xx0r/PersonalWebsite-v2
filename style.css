@@ -14,13 +14,92 @@
         body {
             background: white;
         }
+
+
         h1 { 
+            overflow: hidden;
             color: black;
             font-weight: 600;
             font-size: 90px;
             font-family: SF Pro Display;
 
         }
+
+        .typeWriterText{
+            border-right: solid 3px rgba(0,255,0,.75);
+            white-space: nowrap;
+            overflow: hidden;    
+            color: rgba(255,255,255,.70);
+            color: black;
+            font-weight: 600;
+            font-size: 90px;
+            font-family: SF Pro Display;
+
+        }
+
+        .typeWriterText {
+            animation: animated-text 2s steps(29,end) 0.2s 1 normal both,
+                       animated-cursor 600ms steps(29,end) infinite;
+          }
+
+          @keyframes animated-text{
+            from{width: 0;}
+            to{width: 560px;}
+          }
+          
+          /* cursor animations */
+          
+          @keyframes animated-cursor{
+            from{border-right-color: rgba(135, 163, 135, 0.75);}
+            to{border-right-color: transparent;}
+          }
+
+
+        /*
+        
+#parent {
+    overflow: hidden;
+    color: black;
+    font-weight: 600;
+    font-size: 90px;
+    font-family: SF Pro Display;
+    height: 100px;
+    white-space: nowrap;
+    color: black;
+    position: relative;
+  }
+  
+  #border {
+    border-bottom: solid 10px black;
+    position: absolute;
+    right: -7px;
+    width: 20px;
+  }
+  
+
+  #parent {
+    animation: animated-text 2s steps(30,end) 1s 1 normal both
+  }
+  
+  #border {
+     animation: animated-cursor 600ms steps(30,end) infinite;
+  }
+  
+
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 480px;}
+  }
+  
+
+  
+  @keyframes animated-cursor{
+    from{border-bottom-color: rgba(0,255,0,.75);}
+    to{border-bottom-color: transparent;}
+  }
+  */
+
         .topButtons {
             min-width: 100px;
             padding-left: 20px;

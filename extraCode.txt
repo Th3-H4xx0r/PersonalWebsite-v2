@@ -152,3 +152,12 @@
                                                     $('.odometer').html(1234);
                                                 }, 1000);
                                             </script>
+
+
+
+
+
+
+                                            <li style="padding-bottom: 11%;"> 
+                <h1 class="typewrite" data-period = "1000" data-type= '["Pranav Krishna"]' style="padding-right: 40%; padding-top: 35%; width: 50%; white-space: nowrap;">Pranav<s></s>
+                    Krishna</h1>
