@@ -161,3 +161,47 @@
                                             <li style="padding-bottom: 11%;"> 
                 <h1 class="typewrite" data-period = "1000" data-type= '["Pranav Krishna"]' style="padding-right: 40%; padding-top: 35%; width: 50%; white-space: nowrap;">Pranav<s></s>
                     Krishna</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <ul data-aos="fade-right" data-aos-once="false" data-aos-delay="50" data-aos-easing="ease-in-out"
+        data-aos-mirror="true">
+
+        <li>
+            <topButtons class="topButtons"><a href="#Contact Section"
+                    style="text-decoration:none; color: black;">Contact</a></topButtons>
+        </li>
+
+        <li>
+            <topButtons class="topButtons"><a href="#Projects Section"
+                    style="text-decoration:none; color: black;">Projects</a></topButtons>
+        </li>
+
+
+        <li>
+            <topButtons class="topButtons"><a href="#Skills Section"
+                    style="text-decoration:none; color: black;">Skills</a></topButtons>
+        </li>
+
+        <li>
+            <topButtons class="topButtons"><a href="#About Me" style="text-decoration:none; color: black;">About</a>
+            </topButtons>
+        </li>
+    </ul>
