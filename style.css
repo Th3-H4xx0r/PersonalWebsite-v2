@@ -25,7 +25,7 @@
 
         }
 
-        .typeWriterText{
+        .typeWriterTextName{
             border-right: solid 3px rgba(0,255,0,.75);
             white-space: nowrap;
             overflow: hidden;    
@@ -37,10 +37,33 @@
 
         }
 
-        .typeWriterText {
+        .typeWriterTextName {
             animation: animated-text 2s steps(29,end) 0.2s 1 normal both,
                        animated-cursor 600ms steps(29,end) infinite;
           }
+
+          .typeWriterTextTitle{
+            border-right: solid 3px rgba(0,255,0,.75);
+            white-space: nowrap;
+            overflow: hidden;    
+            color: rgba(255,255,255,.70);
+            color: black;
+            font-weight: 600;
+            font-size: 90px;
+            font-family: SF Pro Display;
+
+        }
+
+        .typeWriterTextTitle {
+            animation: animated-textTitle 2s steps(29,end) 0.5s 1 normal both,
+                       animated-cursor 500ms steps(29,end) infinite;
+          }
+
+          @keyframes animated-textTitle{
+            from{width: 0;}
+            to{width: 140px;}
+          }
+          
 
           @keyframes animated-text{
             from{width: 0;}
