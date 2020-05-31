@@ -91,9 +91,10 @@ body
 
 .stats-section
 {
-  height: 400px;
   background-color: #1e1e1e;
   width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 /*STATS SECTION*/
@@ -109,3 +110,4 @@ body
   font-weight: 600;
 }
 
+/*TEXT STYLES STATS */

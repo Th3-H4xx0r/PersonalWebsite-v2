@@ -1,4 +1,3 @@
-
 function getGithubContributions() {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open("GET", "https://github-contributions-api.now.sh/v1/Th3-H4xx0r", true);
