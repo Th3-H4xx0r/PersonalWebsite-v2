@@ -12,6 +12,8 @@
 
     <!--LINKS-->
     <link rel="stylesheet" href="Css/styles.css">
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="Css/stylesAnim.scss">
 
     <!--AOS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -24,71 +26,142 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
+    <link rel="stylesheet" href="CSS/odomter-theme-default.css" />
+    <script src="JS/odometer.min.js"></script>
+
+    <script>
+        window.odometerOptions = {
+          format: '(ddd).dd'
+        };
+        </script>
+
+
+
+
     <title>Pranav Krishna Portfolio</title>
 </head>
 
-<body>
+<body onload="getGithubContributions(),getGitHubRepos()">
 
-    <!--NAV BAR-->
+    <header style="background-image: url('Assets/background1.jpg'); height: 60em;">
+        <!--NAV BAR-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="position: relative;">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <h4>My Portfolio</h4>
-            </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-target">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#my-projects">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#my-skills">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#past-competitions">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-attachment: fixed;">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <h4>My Portfolio</h4>
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-target">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-projects">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-skills">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#past-competitions">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!--HEADING MAIN-->
+        <!--HEADING MAIN-->
+
+        <section>
+            <div class="d-flex justify-content-center" style="color: white; padding-top: 500px;">
+                <div class="col">
+                    <h1 class="line-1 anim-typewriter" style="font-size: 60px;">Pranav Krishna1</h1>
+
+                    <div class="d-flex justify-content-center" data-aos="fade-right" data-aos-delay="3000"
+                        data-aos-duration="800">
+                        <div class="row">
+                            <i class="fab fa-linkedin fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i>
+
+                            <i class="fab fa-github fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i>
+
+                            <i class="fab fa-instagram fa-3x"
+                                style="color: white; width: 60px; margin-right: 40px;"></i>
+
+                            <i class="fas fa-envelope fa-3x" style="color: white; width: 60px"></i>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
+    </header>
+
+
+
+    <!--ABOUT ME SECTION-->
 
     <section>
-        <div class="d-flex justify-content-center" style="color: white; margin-top:25%;">
-            <div class="col">
-                <h1 class="line-1 anim-typewriter" style="font-size: 60px;">Pranav Krishna1</h1>
+        <div class="d-flex justify-content-center" style="margin-top: 100px; margin-bottom: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="gradient-border" id="avatar" style="margin: auto;"><img src="Assets/profile pic2.jpg"
+                            id="avatar"></div>
 
-                <div class="d-flex justify-content-center" data-aos="fade-right" data-aos-delay = "3000" data-aos-duration="800">
-                    <div class="row">
-                        <i class="fab fa-linkedin fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i>
+                    <div class="col" style="padding-left: 70px; margin: auto; margin-top: 10px;">
+                        <h1 class="profile-title">About Me</h1>
 
-                        <i class="fab fa-github fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i>
+                        <h3 style="color: grey;">Entrepreneur | Developer</h3>
 
-                        <i class="fab fa-instagram fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i>
-
-                        <i class="fas fa-envelope fa-3x" style="color: white; width: 60px"></i>
-
+                        <h5 style="color: white; margin-top: 10px;">Hi, i'm Pranav Krishna, a developer and entrepreneur
+                            based in the Bay Area. Coding is a big passion of mine, I started coding when I was just 13
+                            years old. Being fluent in over 6 coding languages, I have published many successful
+                            projects over my lifetime, and I am still working on some as we speak!</h5>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <!--STATS SECTION-->
 
+    <section class="stats-section">
+        <div class="d-flex justify-content-center" style="margin:auto;">
+
+            <div class="row">
+                <div class="col" align = "center">
+                    <div class="odometer" id = "commits" style="color: white; font-size: 65px; font-weight: 700;">000</div>
+                    <h3 class="stats-caption">Commits</h3>
+    
+                </div>
+
+                <div class="col" align = "center">
+                    <div class="odometer" id = "repos" style="color: white; font-size: 65px; font-weight: 700;">000</div>
+                    <h3 class="stats-caption">Repositories</h3>
+    
+                </div>
+
+                <div class="col" align = "center">
+                    <div class="odometer" id = "stats-main">000</div>
+                    <h3 class="stats-caption">Commits</h3>
+    
+                </div>
             </div>
 
+            
+
         </div>
-
-
-
     </section>
+
 
 
 
