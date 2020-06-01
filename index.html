@@ -35,20 +35,21 @@
         };
     </script>
 
-
-
-
     <title>Pranav Krishna Portfolio</title>
 </head>
 
 <body>
 
+    <script>
+      
+    </script>
+
     <header style="background-image: url('Assets/background1.jpg'); height: 60em;">
         <!--NAV BAR-->
 
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-attachment: fixed;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-attachment: fixed;" id = "navBar-element">
             <div class="container">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="index.html">
                     <h4>My Portfolio</h4>
                 </a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
@@ -56,20 +57,22 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-target">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-me">About Me</a>
+
+                        <li class="nav-item" style = "color: transparent;">
+                            <a class="nav-link" href="#aboutMe" style="color: white;">About Me</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#my-projects">Skills</a>
+
+                        <li class="nav-item" style = "color: transparent;">
+                            <a class="nav-link" href="#stats" style="color: white;">Stats</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#my-skills">Experience</a>
+                        <li class="nav-item" style = "color: transparent;">
+                            <a class="nav-link" href="#my-skills" style="color: white;">Experience</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#past-competitions">Projects</a>
+                        <li class="nav-item" style = "color: transparent;">
+                            <a class="nav-link" href="#past-competitions" style="color: white;">Projects</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact-me">Contact Me</a>
+                        <li class="nav-item" style = "color: transparent;">
+                            <a class="nav-link" href="#contact-me" style="color: white;">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -86,14 +89,14 @@
                     <div class="d-flex justify-content-center" data-aos="fade-right" data-aos-delay="3000"
                         data-aos-duration="800">
                         <div class="row">
-                            <i class="fab fa-linkedin fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i>
+                            <a href="https://www.linkedin.com/in/pranav-krishna-874859199/" target="blank"><i class="fab fa-linkedin fa-3x" style="color: white; width: 60px; margin-right: 40px;" ></i></a>
 
-                            <i class="fab fa-github fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i>
+                            <a target="blank" href="https://github.com/Th3-H4xx0r"><i class="fab fa-github fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i></a>
 
-                            <i class="fab fa-instagram fa-3x"
-                                style="color: white; width: 60px; margin-right: 40px;"></i>
+                            <a target="blank" href="https://www.instagram.com/th3_h4xx0r/"><i class="fab fa-instagram fa-3x"
+                                style="color: white; width: 60px; margin-right: 40px;"></i></a>
 
-                            <i class="fas fa-envelope fa-3x" style="color: white; width: 60px"></i>
+                            <a href="mailto:krishnatechpranav@gmail.com"><i class="fas fa-envelope fa-3x" style="color: white; width: 60px"></i></a>
 
                         </div>
                     </div>
@@ -110,7 +113,7 @@
 
     <!--ABOUT ME SECTION-->
 
-    <section>
+    <section id="aboutMe">
         <div class="d-flex justify-content-center" style="margin-top: 100px; margin-bottom: 100px;">
             <div class="container">
                 <div class="row">
@@ -126,6 +129,74 @@
                             based in the Bay Area. Coding is a big passion of mine, I started coding when I was just 13
                             years old. Being fluent in over 6 coding languages, I have published many successful
                             projects over my lifetime, and I am still working on some as we speak!</h5>
+
+                            <div class="svg-wrapper">
+                                <svg height="60" width="320">
+                                  <rect class="shape" height="60" width="320" />
+                                  <div class="text">Download Resume</div>
+                                </svg>
+                              </div>
+
+                        <div class="row" style="margin-left: 10px; margin-top: 20px;">
+
+                            <div class="col">
+
+                                <div class="row" style="margin-left: 10px;">
+                                    <i class="fas fa-toolbox fa-2x" style="color: white; margin-top: 7px;"></i>
+                                    <h4 style="color: white; margin-top: 10px; margin-left: 10px;" >Skills</h4>
+                                </div>
+                            
+                                <ul class="skills-tags" style="margin-left: 10px;">
+                                    <li>IOS Development</li>
+                                    <li>Android Development</li>
+                                    <li>Cloud Integration</li>
+                                    <li>Firebase</li>
+                                    <li>Web Development</li>
+                                    <li>Bootstrap</li>
+                                    <li>UI/UX Development</li>
+        
+                                </ul>
+                            </div>
+
+                            <div class="col" style="margin-top: 10px;">
+
+                                <div class="row" style="margin-left: 10px;">
+                                    <i class="fas fa-code fa-2x" style="color: white; margin-top: 7px;"></i>
+                                    <h4 style="color: white; margin-top: 10px; margin-left: 10px;" >Coding Languages</h4>
+                                </div>
+                            
+                               
+
+                                    <div class="row">
+                                        <ul class="skills-tags" style="margin-left: 10px;">
+                                            <li>Core Java</li>
+                                            <li>Javascript</li>
+                                            <li>Python</li>
+                                            <li>Dart</li>
+                                            <li>HTML 5</li>
+                                            <li>CSS 3</li>
+
+                                        </ul>
+
+                                        <ul class="skills-tags">
+                                            <li>Jquery</li>
+                                            <li>NodeJS</li>
+                                            <li>MIT App Inventor</li>
+                                        </ul>
+
+                                    </div>
+                                    
+
+                               
+
+                                
+                            </div>
+
+                        </div>
+
+                        
+
+                        
                     </div>
                 </div>
             </div>
@@ -138,10 +209,12 @@
 
         <div class="col" style="margin-top: -100px; margin-left: 100px; margin-bottom: 70px;">
             <div class="row">
-                <i class="fab fa-github fa-3x" style="color: white; width: 60px; margin-right: 40px;"
-                    data-aos="fade"></i>
-                <h1 style="color: white; margin-left: -30px; margin-right: 10px;" data-aos="fade-up">|</h1>
-                <h1 style="color: white;" data-aos="fade-right" data-aos-delay="500">Statistics</h1>
+                <i class="fab fa-github fa-3x" style="color: white; width: 60px; margin-right: 10px;"
+                    data-aos="zoom-in"></i>
+
+                    <h1 style="color: white; font-weight: 700; margin-right: 15px;" data-aos="fade-up" data-aos-delay="500">|</h1>
+
+                <h1 style="color: white;" data-aos="fade-right" data-aos-delay="800">Statistics</h1>
             </div>
         </div>
 
@@ -172,10 +245,6 @@
                 </div>
             </div>
 
-
-
-
-
         </div>
     </section>
 
@@ -185,11 +254,23 @@
 
 
 
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#navBar-element");
+                $nav.backgroundColor = "#121212";
+            });
+        });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -199,29 +280,33 @@
 
     <script>
 
+        window.addEventListener('scroll', function () {
+            var element = document.querySelector('#stats');
+            var position = element.getBoundingClientRect();
+
+            if (position.top < window.innerHeight && position.bottom >= 0) {
+                setTimeout(function () {
+                    myFunction();
+                }, 1500);
+            }
+        });
+
+        var times = 0;
+
         function myFunction() {
-            console.log("WORKS");
-            getGithubContributions();
-            getGitHubRepos();
+            if(times == 0){
+                console.log("WORKS");
+                getGithubContributions();
+                getGitHubRepos();
+                times = times + 1;
+            }
+            
         }
 
 
         $(function () {
             AOS.init();
 
-        });
-
-        var lastWasLower = false;
-        $(document).scroll(function () {
-            if ($(document).scrollTop() > 1000) {
-                if (!lastWasLower)
-                    myFunction();
-
-                lastWasLower = true;
-            } else {
-                lastWasLower = false;
-
-            }
         });
     </script>
 </body>

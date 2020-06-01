@@ -19,8 +19,6 @@ function getGithubContributions() {
                 }
 
             }
-
-            console.log("total:" + total.toString());
             $("#commits").html(total);
             
 
@@ -42,10 +40,9 @@ function getGitHubRepos(){
 
             totalRepos = repos.length;
 
-
-            console.log("total repos:" + totalRepos.toString());
             $("#repos").html(totalRepos);
             
 
     }
 }
+

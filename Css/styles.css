@@ -4,6 +4,7 @@ html
     height: 100%;
     width: 100%;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 body
@@ -48,7 +49,7 @@ body
 }
 
 .gradient-border {
-  --borderWidth: 5px;
+  --borderWidth: 6px;
   background: #1D1F20;
   position: relative;
   border-radius: 100px;
@@ -61,25 +62,31 @@ body
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background: linear-gradient(60deg, #f58529, #feda77, #de2a7b, #8134af);
   border-radius: 150px;
   z-index: -1;
-  animation: animatedgradient 1.5s ease alternate-reverse infinite;
-  background-size: 300% 300%;
+  animation: animatedgradient 1.5s ease forwards infinite;
 }
 
 
 @keyframes animatedgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
+
+
 
 
 
@@ -108,6 +115,54 @@ body
   color: white;
   font-size: 45px;
   font-weight: 600;
+}
+
+ul
+{
+  list-style:none;
+}
+
+li:before
+{
+  content: "> ";
+  font-weight: 700;
+}
+
+.skills-tags
+{
+  color: white;
+  font-size: 20px;
+}
+
+.svg-wrapper {
+  width: 370px;  
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.shape {
+  
+  stroke-dasharray: 100 300;
+  stroke-dashoffset: 60;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #f58529;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  margin-left: 15px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
 }
 
 /*TEXT STYLES STATS */
