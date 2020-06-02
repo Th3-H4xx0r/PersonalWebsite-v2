@@ -165,4 +165,23 @@ li:before
   stroke-dasharray: 760;
 }
 
+.project-title
+{
+  color: black;
+}
+
+.project-cards
+{
+  background-color: rgb(0, 110, 255);
+  border-radius: 20px;
+}
+
+.project-pics
+{
+  width: 390px;
+  margin-left: -10px;
+  margin-top: 4px;
+  height: 400px;
+}
+
 /*TEXT STYLES STATS */
