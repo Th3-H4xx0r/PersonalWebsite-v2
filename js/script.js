@@ -20,7 +20,7 @@ function getGithubContributions() {
 
             }
             */
-    $("#commits").html("2400");
+    $("#commits").html("2700");
             
 
     //}

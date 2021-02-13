@@ -47,7 +47,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-attachment: fixed;" id = "navBar-element">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <h4>My Portfolio</h4>
+                    <h4 style="color: #00cf98;">Pranav Krishna</h4>
                 </a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
                     <span class="navbar-toggler-icon"></span>
@@ -56,20 +56,20 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item" style = "color: transparent;">
-                            <a class="nav-link" href="#aboutMe" style="color: white;">About Me</a>
+                            <a class="nav-link" href="#aboutMe" style="color:#00cf98;  font-size: 20px;">About Me</a>
                         </li>
 
                         <li class="nav-item" style = "color: transparent;">
-                            <a class="nav-link" href="#stats" style="color: white;">Stats</a>
+                            <a class="nav-link" href="#stats" style="color:#00cf98; font-size: 20px;">Stats</a>
                         </li>
                         <li class="nav-item" style = "color: transparent;">
-                            <a class="nav-link" href="#my-skills" style="color: white;">Experience</a>
+                            <a class="nav-link" href="#my-skills" style="color:#00cf98;  font-size: 20px;">Experience</a>
                         </li>
                         <li class="nav-item" style = "color: transparent;">
-                            <a class="nav-link" href="#past-competitions" style="color: white;">Projects</a>
+                            <a class="nav-link" href="#past-competitions" style="color:#00cf98;  font-size: 20px;">Projects</a>
                         </li>
                         <li class="nav-item" style = "color: transparent;">
-                            <a class="nav-link" href="#contact-me" style="color: white;">Contact Me</a>
+                            <a class="nav-link" href="#contact-me" style="color:#00cf98;  font-size: 20px;">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -81,19 +81,19 @@
         <section>
             <div class="d-flex justify-content-center" style="color: white; padding-top: 500px;">
                 <div class="col">
-                    <h1 class="line-1 anim-typewriter" style="font-size: 60px;">Pranav Krishna</h1>
+                    <h1 class="line-1 anim-typewriter" id="typeWriteHead">Pranav Krishna</h1>
 
                     <div class="d-flex justify-content-center" data-aos="fade-right" data-aos-delay="3000"
                         data-aos-duration="800">
-                        <div class="row">
-                            <a href="https://www.linkedin.com/in/pranav-krishna-874859199/" target="blank"><i class="fab fa-linkedin fa-3x" style="color: white; width: 60px; margin-right: 40px;" ></i></a>
+                        <div style="display: flex;" id = 'socialMediaShowCase'>
+                            <a href="https://www.linkedin.com/in/pranav-krishna-874859199/" target="blank"><i class="fab fa-linkedin fa-3x" id = 'socialIcons'></i></a>
 
-                            <a target="blank" href="https://github.com/Th3-H4xx0r"><i class="fab fa-github fa-3x" style="color: white; width: 60px; margin-right: 40px;"></i></a>
+                            <a target="blank" href="https://github.com/Th3-H4xx0r"><i class="fab fa-github fa-3x" id = 'socialIcons'></i></a>
 
                             <a target="blank" href="https://www.instagram.com/th3_h4xx0r/"><i class="fab fa-instagram fa-3x"
-                                style="color: white; width: 60px; margin-right: 40px;"></i></a>
+                                id = 'socialIcons'></i></a>
 
-                            <a href="mailto:krishnatechpranav@gmail.com"><i class="fas fa-envelope fa-3x" style="color: white; width: 60px"></i></a>
+                            <a href="mailto:krishnatechpranav@gmail.com"><i class="fas fa-envelope fa-3x" id = 'socialIcons'></i></a>
 
                         </div>
                     </div>
@@ -117,15 +117,14 @@
                     <div class="gradient-border" id="avatar" style="margin: auto;"><img src="Assets/profile pic2.jpg"
                             id="avatar"></div>
 
-                    <div class="col" style="padding-left: 70px; margin: auto; margin-top: 10px;">
+                    <div class="col" id="aboutMeText">
                         <h1 class="profile-title">About Me</h1>
 
-                        <h3 style="color: grey;">Entrepreneur | Developer</h3>
+                        <h5 style="color: #00cf98;">Entrepreneur | Developer | Co Founder @ Proto Systems</h5>
 
-                        <h5 style="color: white; margin-top: 10px;">Hi, i'm Pranav Krishna, a developer and entrepreneur
-                            based in the Bay Area. Coding is a big passion of mine, I started coding when I was just 13
-                            years old. Being fluent in over 6 coding languages, I have published many successful
-                            projects over my lifetime, and I am still working on some as we speak!</h5>
+                        <h5 style="color: white; margin-top: 1rem;">Hi, I am a 16 year old developer and entrepreneur
+                            based in the Bay Area. Coding is a big passion of mine, I started coding at the age of 13. Being fluent in over 6 coding languages and a multitude of frameworks, I have published many successful
+                            projects over my lifetime, and I am still working on some as we speak! I really enjoy speaking with people, please feel free to contact me so we can get in touch.</h5>
                             
                             <a href="#download" style="outline: 0; border: none; text-decoration: none;">
                                 <div class="svg-wrapper">
@@ -146,13 +145,14 @@
                                 </div>
                             
                                 <ul class="skills-tags" style="margin-left: 10px;">
-                                    <li>IOS Development</li>
-                                    <li>Android Development</li>
-                                    <li>Cloud Integration</li>
-                                    <li>Firebase</li>
-                                    <li>Web Development</li>
-                                    <li>Bootstrap</li>
-                                    <li>UI/UX Development</li>
+                                    <li class="li-about">IOS Development</li>
+                                    <li class="li-about">Android Development</li>
+                                    <li class="li-about">Cloud Integration</li>
+                                    <li class="li-about">Firebase</li>
+                                    <li class="li-about">Web Development</li>
+                                    <li class="li-about">UI/UX Development</li>
+                                    <li class="li-about">Full Stack Development</li>
+                                    <li class="li-about">Realtime API Development</li>
         
                                 </ul>
                             </div>
@@ -165,19 +165,22 @@
                                 </div>                                                  
                                     <div class="row">
                                         <ul class="skills-tags" style="margin-left: 10px;">
-                                            <li>Core Java</li>
-                                            <li>Javascript</li>
-                                            <li>Python</li>
-                                            <li>Dart</li>
-                                            <li>HTML 5</li>
-                                            <li>CSS 3</li>
+                                            <li class="li-about">Core Java</li>
+                                            <li class="li-about">Javascript</li>
+                                            <li class="li-about">Python</li>
+                                            <li class="li-about">Dart</li>
+                                            <li class="li-about">HTML 5</li>
+                                            <li class="li-about">CSS 3</li>
 
                                         </ul>
 
                                         <ul class="skills-tags">
-                                            <li>Jquery</li>
-                                            <li>NodeJS</li>
-                                            <li>MIT App Inventor</li>
+                                            <li class="li-about">Jquery</li>
+                                            <li class="li-about">NodeJS</li>
+                                            <li class="li-about">MIT App Inventor</li>
+                                            <li class="li-about">Socket.io</li>
+                                            <li class="li-about">Bootstrap</li>
+                                            <li class="li-about">SQL</li>
                                         </ul>
 
                                     </div>
@@ -211,20 +214,20 @@
             <div class="col">
                 <div class="row">
                     <div class="col" align="center" style="margin-top: 30px;">
-                            <div class="odometer" id="commits" style="color: white; font-size: 65px; font-weight: 700;">000</div>
+                            <div class="odometer" id="commits" style="color: white; font-size: 65px; font-weight: 700;"></div>
                         <h3 class="stats-caption">Commits</h3>
 
                     </div>
 
                     <div class="col" align="center" style="margin-top: 30px;">
-                        <div class="odometer" id="repos" style="color: white; font-size: 65px; font-weight: 700;">000
+                        <div class="odometer" id="repos" style="color: white; font-size: 65px; font-weight: 700;">
                         </div>
                         <h3 class="stats-caption">Repositories</h3>
 
                     </div>
 
                     <div class="col" align="center" style="margin-top: 20px;">
-                        <div class="odometer" id="stats-main">0</div>
+                        <div class="odometer" id="stats-main"></div>
                         <h3 class="stats-caption">Deployments</h3>
 
                     </div>
@@ -237,7 +240,9 @@
     <!--Projects Section-->
 
     <section>
-        <h1 style="color: white; font-weight: 600; margin-top: 20px; margin-left: 150px;">My Projects</h1>
+        <div class="d-flex justify-content-center">
+            <h1 style="color: white; font-weight: 600; margin-top: 20px;">Featured Projects</h1>
+        </div>
 
         <div class="container">
            
@@ -248,13 +253,60 @@
                     <div class="col-lg-6 mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
                         <div class="card h-100">
 
+                            <img src="Assets/classvibes-demo.PNG" class="img-fluid">
+
+                            <div style="margin-left: 10px;">
+                                <h1 class="project-title">ClassVibes</h1>
+
+                                <p>ClassVibes is a cross-platform application meant to help teachers and students communicate during distance learning. ClassVibes provides many features to teachers and students such as student reaction tracking and pushing announcements. ClassVibes is my first production SaaS.</p>
+                                
+                                <h5><span class="badge badge-dark">NodeJS</span> <span class="badge badge-dark">Firebase</span> <span class="badge badge-dark">Socket.io</span> <span class="badge badge-dark">NodeJS</span> <span class="badge badge-dark">Android</span> <span class="badge badge-dark">IOS</span>  <span class="badge badge-dark">SaaS</span> </h5>
+                                <div class="row" style="margin-left: 5px; margin-bottom: 10px;">
+                                   <a target="blank" href="https://classvibes.net"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+        
+                                   <a style="margin-left: 10px;" style="color: grey;" data-toggle="tooltip" title="Repo is private"><i class="fab fa-github fa-2x"></i></a></div>
+                            </div>
+    
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-lg-6 mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+                        <div class="card h-100">
+
+                            <img src="Assets/intellistockV2.PNG" class="img-fluid">
+
+                            <div style="margin-left: 10px;">
+                                <h1 class="project-title">IntelliStock V2</h1>
+
+                                <p>Intellistock is a cross-platform automated stocks trading platoform, built on artifical intelligence. The bot will decide when to buy and sell stocks based on a watchlist given by the user. IntelliStock is a free to use service that is currently in beta stage.</p>
+                                
+                                <h5><span class="badge badge-dark">NodeJS</span> <span class="badge badge-dark">Firebase</span> <span class="badge badge-dark">Socket.io</span> <span class="badge badge-dark">ExpressJS</span> <span class="badge badge-dark">Python</span> <span class="badge badge-dark">RethinkDB</span> <span class="badge badge-dark">Android</span>  <span class="badge badge-dark">IOS</span>  <span class="badge badge-dark">SaaS</span> </h5>
+
+
+                                <div class="row" style="margin-left: 5px; margin-bottom: 10px;">
+                                   <a target="blank" href="https://intellistock.protosystems.net"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+        
+                                   <a style="margin-left: 10px;" style="color: grey;" data-toggle="tooltip" title="Repo is private"><i class="fab fa-github fa-2x"></i></a></div>
+                            </div>
+    
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+                        <div class="card h-100">
+
                             <img src="Assets/hackcube demo.PNG" class="img-fluid">
 
                             <div style="margin-left: 10px;">
                                 <h1 class="project-title">HackCube</h1>
 
-                                <p>Hackcube Is a cross-platform application meant to make hosting and managing hackathons easier.</p>
-        
+                                <p>Hackcube Is a cross-platform application meant to make hosting and managing hackathons easier. <br> <span class="badge badge-primary">Deprecated</span></p>
+                                
+                                <h5><span class="badge badge-dark">Firebase</span> <span class="badge badge-dark">SaaS</span> </h5>
+
+
                                 <div class="row" style="margin-left: 5px; margin-bottom: 10px;">
                                    <a target="blank" href="https://hackcube.io"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
         
@@ -268,13 +320,16 @@
                     <div class="col-lg-6 mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
                         <div class="card h-100">
 
-                            <img src="Assets/hackcube demo.PNG" class="img-fluid">
+                            <img src="Assets/intellistockV1.png" class="img-fluid">
 
                             <div style="margin-left: 10px;">
                                 <h1 class="project-title">IntelliStock</h1>
 
-                                <p>Intellistock is a intelligent stock prediction and advisory service. Intellistock works by a server-side script and a client mobile application. It advises users when to buy or sell certain stocks that they configure with the app.</p>
-        
+                                <p>Intellistock is a intelligent stock prediction and advisory service. Intellistock works by a server-side script and a client mobile application. It advises users when to buy or sell certain stocks that they configure with the app. <br> <span class="badge badge-primary">Deprecated</span></p>
+                                
+                                <h5> <span class="badge badge-dark">Firebase</span>  <span class="badge badge-dark">Python</span>  <span class="badge badge-dark">SaaS</span> </h5>
+
+
                                 <div class="row" style="margin-left: 5px; margin-bottom: 10px;">
                                    <a target="blank" style = "color: grey;" data-toggle="tooltip" title="Website not avaliable"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
         
@@ -285,25 +340,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
-                        <div class="card h-100">
 
-                            <img src="Assets/classvibes-demo.PNG" class="img-fluid">
-
-                            <div style="margin-left: 10px;">
-                                <h1 class="project-title">ClassVibes</h1>
-
-                                <p>ClassVibes is a cross-platform application meant to help teachers and students communicate during distance learning. ClassVibes provides many features to teachers and students such as student reaction tracking and pushing announcements.</p>
-        
-                                <div class="row" style="margin-left: 5px; margin-bottom: 10px;">
-                                   <a target="blank" href="https://classvibes.net"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
-        
-                                   <a href= "https://github.com/Th3-H4xx0r/ClassVibes-Production" style="margin-left: 10px;" target="blank" ><i class="fab fa-github fa-2x"></i></a>
-                                </div>
-                            </div>
-    
-                        </div>
-                    </div>
 
                     <div class="col-lg-6 mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
                         <div class="card h-100">
@@ -313,8 +350,9 @@
                             <div style="margin-left: 10px;">
                                 <h1 class="project-title">G-Alert</h1>
 
-                                <p>G-Alert is a mobile application that is meant to prevent and help with on campus gun shootings. G-Alert comes with a panic button that will alert all students and faculty when pressed. With the aim of helping ease the outcomes of school shootings, G-Alert comes with many other features as well.</p>
-        
+                                <p>G-Alert is a mobile application that is meant to prevent and help with on campus gun shootings. G-Alert comes with a panic button that will alert all students and faculty when pressed. With the aim of helping ease the outcomes of school shootings, G-Alert comes with many other features as well. <br> <span class="badge badge-primary">Deprecated</span></p>
+                                <h5> <span class="badge badge-dark">Firebase</span> <span class="badge badge-dark">Android</span> <span class="badge badge-dark">IOS</span> </h5>
+
                                 <div class="row" style="margin-left: 5px; margin-bottom: 10px;">
                                    <a style = "color: grey;" data-toggle="tooltip" title="Website not avaliable"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
         
@@ -333,8 +371,10 @@
                             <div style="margin-left: 10px;">
                                 <h1 class="project-title">DevSpace</h1>
 
-                                <p>A social platform for developers to collaborate. DevSpace allows developers to share their projects, post-tech-related discussions, and connect with other developers to collaborate on projects. It is a platform developers to meet with each other and collaborate on future projects.</p>
-        
+                                <p>A social platform for developers to collaborate. DevSpace allows developers to share their projects, post-tech-related discussions, and connect with other developers to collaborate on projects. It is a platform developers to meet with each other and collaborate on future projects. <br> <span class="badge badge-primary">Deprecated</span></p>
+                                
+                                <h5><span class="badge badge-dark">NodeJS</span> <span class="badge badge-dark">Firebase</span>  <span class="badge badge-dark">Android</span> <span class="badge badge-dark">IOS</span> </h5>
+
                                 <div class="row" style="margin-left: 5px; margin-bottom: 10px;">
                                    <a target="blank" href="https://upbeat-lumiere-2ac0ad.netlify.app/"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
         
@@ -387,7 +427,7 @@
 
     <footer id="sticky-footer" class="py-4 bg-custom text-white-50" style="background-color: black;">
         <div class="container text-center">
-            <small>Copyright 2020 © Pranav Krishna</small>
+            <small>Copyright 2021 © Pranav Krishna. All rights reserved.</small>
         </div>
     </footer>
 

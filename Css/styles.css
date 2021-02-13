@@ -62,7 +62,7 @@ body
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f58529, #feda77, #de2a7b, #8134af);
+  background: linear-gradient(60deg, #b9ffec, #017758, #21f0b8, #00cf98);
   border-radius: 150px;
   z-index: -1;
   animation: animatedgradient 1.5s ease forwards infinite;
@@ -122,10 +122,12 @@ ul
   list-style:none;
 }
 
-li:before
+.li-about:before
 {
-  content: "> ";
+  content: "- ";
   font-weight: 700;
+  color:#00cf98;
+  font-weight: 800;
 }
 
 .skills-tags
@@ -143,9 +145,9 @@ li:before
   
   stroke-dasharray: 100 300;
   stroke-dashoffset: 60;
-  stroke-width: 8px;
+  stroke-width: 5px;
   fill: transparent;
-  stroke: #f58529;
+  stroke: #00cf98;
   border-bottom: 5px solid black;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
@@ -183,5 +185,54 @@ li:before
   margin-top: 4px;
   height: 400px;
 }
+
+#typeWriteHead{
+  font-size: 60px;
+}
+
+#socialIcons{
+  color: white; 
+  width: 60px; 
+  margin-right: 2rem;
+}
+
+#aboutMeText{
+  padding-left: 70px;
+   margin: auto; 
+   margin-top: 10px;
+}
+
+#socialMediaShowCase{
+  margin-left: 3%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+  #typeWriteHead{
+    font-size: 50px;
+  }
+
+  #socialIcons{
+    color: white; 
+    font-size: 40px; 
+    margin-left: 0rem;
+  }
+
+  #aboutMeText{
+    margin-top: 2rem;
+    padding-left: 10%;
+  }
+
+  #skills-languages-section{
+    margin-left: -3rem;
+  }
+
+  #socialMediaShowCase{
+    margin-left: 15%;
+  }
+  
+  
+} 
 
 /*TEXT STYLES STATS */
